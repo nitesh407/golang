@@ -27,7 +27,7 @@ func main(){
 
 	emp := Emp{"Nitesh", ""}
 	if s, err := emp.get_salary(emp.role); err != nil{
-		fmt.Println(err)
+		fmt.Println(err)	
 	}else{
 		fmt.Println("The salary is :", s)
 	}

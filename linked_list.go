@@ -20,7 +20,7 @@ func (l *List)Push(value int){
 	l.tail = node
 }
 
-type Node struct{
+type Node struct{	
 	value int 
 	next *Node
 }

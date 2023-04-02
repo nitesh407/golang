@@ -1,4 +1,4 @@
-//we cant sort a slice with the help of sort package directly, we need to convert it into a slice first
+//we cant sort a slice with the help of sort package directly, we need to convert it into a slice first	
 
 package main
 import "fmt"
